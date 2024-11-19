@@ -1,0 +1,24 @@
+@charset "UTt-8";
+ul{
+    max-width: auto;
+display: flex;
+justify-content: space-between;
+/*list-style: none;*/
+background-color:rgb(203, 205, 209);
+}
+
+li{padding: 20px;
+margin: 10px;
+background-color:cornflowerblue;
+flex-basis:300px;}
+
+ol{max-width: auto;
+display: flex;
+justify-content: space-between;
+/*list-style: none;*/
+background-color:rgb(203, 205, 209);}
+
+.container{padding: 20px;
+    margin: 10px;
+    background-color:rgb(224, 42, 42);
+    flex-basis:300px;}
