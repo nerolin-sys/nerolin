@@ -14,44 +14,43 @@
     20以下なら20以下と出力しよう。</p>
 
     <script>
-var num01 = 1+2+5+6+7;
-  console.log(num01);
-if (num01 >20){
-console.log("これは20より大きいです");
-} else {
-    console.log("これは20より小さいです") ;  
+var num01 = 0;
+for (i = 0; i <= 10; i++ ){
+    num01 =num01 + i; 
+}
+console.log(num01);
+
+if (num01 > 20){
+console.log("これは20以上です");
+}else {
+    console.log("これは20以下です") ;  
 }
  </script>
 
-<p>1、work2pcのレイアウトを作ってみる。</p>
+<p>work2pcのレイアウトを作ってみる。</p>
 
 
-<div aligh="center">
+<div>
 
 <h1>サービス</h1>
 
-<div class="service">
+ <div class="service">
     <ul>
-    <il><img src="./images/main_1.jpg" alt="サービス1"></il>
-    <il class="title">■サービス1</il><br>
-    <il class="article">サービス1サービス1サービス1サービス1サービス1サービス1サービス1</il>
-</ul>
-</div>
+        <li><img src="./images/main_1.jpg" alt="サービス1">
+            <h2>サービス1</h2>
+            <p>サービス1サービス1サービス1サービス1サービス1サービス1サービス1</p>
+        </li>
+        <li><img src="./images/main_2.png" alt="サービス2">
+            <h2>サービス2</h2>
+            <p>サービス2サービス2サービス2サービス2サービス2サービス2サービス2</p>
+        </li>
+        <li><img src="./images/main_3.png" alt="サービス2">
+            <h2>サービス3</h2>
+            <p>サービス3サービス3サービス3サービス3サービス3サービス3サービス3</p>
+        </li>
+    </ul>
+ </div>
 
-<div class="service">
-    <ul>
-    <il><img src="./images/main_2.png" alt="サービス1"></il>
-    <il class="title">■サービス2</il><br>
-    <il class="article">サービス2サービス2サービス2サービス2サービス2サービス2サービス2</il>
-</ul>
-</div>
-
-<div class="service">
-    <ul>
-    <il><img src="./images/main_3.png" alt="サービス1"></il>
-    <il class="title">■サービス3</il><br>
-    <il class="article">サービス3サービス3サービス3サービス3サービス3サービス3サービス3</il>
-</ul>
 </div>
 
 </body>
