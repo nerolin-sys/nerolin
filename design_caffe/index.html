@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>デザインカフェ</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header_inner">
+        <h1 class="logo">
+          <a href="./index.html">
+            <img
+              src="./images/design_cafe_logo_header@2x.png"
+              alt="デザインカフェ"
+          /></a>
+        </h1>
+        <nav class="header_nav">
+          <ul class="header_nav-list">
+            <li class="header_nav-item"><a href="#about">ABOUT US</a></li>
+            <li class="header_nav-item"><a href="#menu">MENU</a></li>
+            <li class="header_nav-item"><a href="#gallery">GALLERY</a></li>
+            <li class="header_nav-item"><a href="#event">EVENT</a></li>
+            <li class="header_nav-item"><a href="#access">ACCESS</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+      </div>
+      <nav class="header_nav-sp">
+        <ul class="header_nav-list">
+          <li class="header_nav-item"><a href="#about">ABOUT US</a></li>
+          <li class="header_nav-item"><a href="#menu">MENU</a></li>
+          <li class="header_nav-item"><a href="#gallery">GALLERY</a></li>
+          <li class="header_nav-item"><a href="#event">EVENT</a></li>
+          <li class="header_nav-item"><a href="#access">ACCESS</a></li>
+        </ul>
+      </nav>
+      <div class="main-visual">
+        <img src="./images/pc_first-100.jpg" alt="カフェ店内の様子" />
+      </div>
+    </header>
+
+    <main>
+      <div class="main-content">
+        <p>Have a happy day From a cup of coﬀee.</p>
+        <h2>ハッピーに溢れる1日を<br />1杯のコーヒーから。</h2>
+        <h3>
+          毎日を丁寧に大切に過ごしたい。だからこそ一杯一杯丁寧にコーヒーを入れ<br />
+          足を運んでくれるお客さんには落ち着く空間とこだわりのコーヒーを提供したい。
+        </h3>
+      </div>
+
+      <div class="flex">
+        <figure class="image">
+          <img src="./images/about_us@2x-100.jpg" alt="こだわりのコーヒー" />
+        </figure>
+        <div class="right">
+          <p class="title">私たちが提供する<br />こだわりのコーヒー</p>
+          <p class="text">
+            サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。
+          </p>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <img src="./images/pc_menu_drink-100.jpg" alt="ドリンク" />
+              <p>
+                ドリンクメニューの概要を100文字程度で紹介します。素材やこだわりなどをアピールしていきます。
+              </p>
+            </li>
+            <li>
+              <img src="./images/pc_menu_food-100.jpg" alt="フード" />
+              <p>
+                フードメニューの概要を100文字程度で紹介します。素材やこだわりなどをアピールしていきます。
+              </p>
+            </li>
+            <li>
+              <img src="./images/pc_menu_sweets-100.jpg" alt="スイーツ" />
+              <p>
+                スイーツメニューの概要を100文字程度で紹介します。素材やこだわりなどをアピールしていきます。
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+    $(function(){
+        $(".hamburger").click(function(){
+            $(".hamburger").toggleClass("open");
+            $(".heaber_nav-sp").fadeToggle();
+         });
+        });
+  </script>
+</html>
