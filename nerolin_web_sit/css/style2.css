@@ -34,6 +34,7 @@ body {
   display: block;
   font-size: 26px;
 }
+
 .view-btn {
   width: 100%;
   max-width: 500px;
@@ -175,6 +176,7 @@ header
   margin-bottom: 24px;
 }
 
+
 /* ==========
 スライドバー
 ==========*/
@@ -246,15 +248,16 @@ works
 .works__inner {
   max-width: 860px;
   margin: 0 auto;
-}
+} 
 .works__inner .image {
   display: flex;
   justify-content: space-between;
   margin-bottom: 84px;
 }
+/*
 .works__inner .image img {
   width: 26%;
-}
+}*/
 .main-content-text {
   margin-bottom: 40px;
   text-align: center;
@@ -311,6 +314,38 @@ works
 .works-box .btn:hover {
   background-color: #231815;
   color: #ffffff;
+}
+
+/* ========== バナーカードレイアウト ========== */
+
+.works__card {
+  
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.card__image{
+  text-align: center;
+}
+
+.card__image img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.card__contents{
+  margin-top: 15px;
+}
+
+.card__body {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.card__footer {
+  margin-top: 30px;
 }
 
 /* ========== バナー ========== */

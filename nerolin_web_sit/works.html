@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style1.css" />
+    <link rel="stylesheet" href="./css/style2.css" />
 
     <title>ネロリンWebサイト</title>
   </head>
@@ -32,69 +32,6 @@
         </nav>
       </div>
     </header>
-
-    <main class="page-top" id="main">
-      <section class="mv__inner">
-        <div class="first-section">
-          <div class="main-article">
-            <div class="img">
-              <img src="./images/top_img.png" alt="ニ美容院「LIFE」 LP" />
-            </div>
-            <div class="text-area">
-              <div class="article__text-wrapper">
-                <p class="article__text">
-                  ラーメンなどの投稿でお馴染みの<br />
-                  自称インスタグラマーNEROLIN5963さんが<br />
-                  NEROLIN WEB SITEを開設しました。
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-article">
-            <div>
-              <img src="./images/top_img02.png" alt="" />
-            </div>
-            <div class="post-area">
-              <h2>INDEX</h2>
-              <ul class="event__list">
-                <li class="event__item">
-                  <a href="./works.html" target="_blank">
-                    <img
-                      src="./images/top_index_01.jpg"
-                      alt="春限定学割キャンペーンのバナー"
-                  /></a>
-                  <div class="event__text-area">
-                    <p class="event__sec-ttl">WORKS</p>
-                    <p class="event__text">
-                      春限定学割キャンペーンのバナー追加しました。
-                    </p>
-                  </div>
-                </li>
-                <li class="event__item">
-                  <a href="./profile.html" target="_blank">
-                    <img
-                      src="./images/top_index_02.jpg"
-                      alt="春限定学割キャンペーンのバナー"
-                  /></a>
-                  <div class="event__text-area">
-                    <p class="event__sec-ttl">PROFILE</p>
-                    <p class="event__text">好きなこと追加しました。</p>
-                  </div>
-                </li>
-                <li class="event__item">
-                  <a href="./profile.html" target="_blank">
-                    <img src="./images/top_index_03.jpg" alt="興味のあること"
-                  /></a>
-                  <div class="event__text-area">
-                    <p class="event__sec-ttl">PROFILE</p>
-                    <p class="event__text">興味のあること追加しました。</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <!--スライダー-->
       <section id="slider-section">
@@ -228,44 +165,67 @@
           <div class="hero-text">
             <h2 class="heading__h2 heading__h2--center">
               <span class="heading__h2--en">WORKS</span>
-              <span class="heading__h2--jp">お仕事について</span>
+              <span class="heading__h2--jp">お仕事</span>
             </h2>
           </div>
           <div class="image">
-            <img src="./images/top_img_a.png" alt="お仕事について01" />
-            <img src="./images/top_img_b.png" alt="お仕事について02" />
-            <img src="./images/top_img_c.png" alt="お仕事について03" />
+            <img src="./images/works_img_a.png" alt="お仕事について01" />
           </div>
           <p class="main-content-text">
-            主に商品ラベルやチラシなどの制作を主に活動をしてきました。<br />
-            グラフィックだけにとどまらずWEBの分野でも活動の幅を広げたく<br />
-            HP制作にチャレンジします。
+            こちらのページでは、<br>
+            一喜一憂して制作してきたバナーやLPなどの制作物を掲載しています。<br>
+            バナー以外にも制作物が増える度に順次アップしていきます。
           </p>
-          <div class="view-btn">
-            <a class="btn" href="./works.html"> VIEW MORE WORKS </a>
-          </div>
         </div>
       </section>
 
       <section id="banner-area" class="works-box">
         <div class="works-box__inner">
-          <div class="works-box__image">
-            <img src="./images/top_b.jpg" alt="バナー" />
-          </div>
+
           <div class="works-box__text">
             <div>
               <h2 class="heading__h2 heading__h2--left">
                 <span class="heading__h2--en">Banner</span>
                 <span class="heading__h2--jp">バナー</span>
               </h2>
-              <p class="text">
-                バナー制作においてクリックされてなんぼの精神で、<br />
-                「目立つ事」「埋もれない事」を心がけてることにより、<br />
-                高いアクセスビューを心がけてます。
-              </p>
+              
+              <!--バナーカードレイアウト-->
+              <article class="works__card">
+                <div class="card__image">
+                    <img src="./images/works_img_01.jpg" width="450px" height="450px" alt="デザスタmobileバナー">
+                </div>
+                <div class="card__contents">
+                    <span class="card__body--en">デザスタmobileバナー</span>
+                    <span class="card__body--jp">Design</span>
+                </div>
+            </article>
+            <article class="works__card">
+              <div class="card__image">
+                  <img src="./images/works_img_02.jpg" width="450px" height="450px" alt="トラベルメディア「TRRRRIP」バナー">
+              </div>
+              <div class="card__contents">
+                  <span class="card__body--en">トラベルメディア「TRRRRIP」バナー</span>
+                  <span class="card__body--jp">Design</span>
+              </div>
+          </article>
+          <article class="works__card">
+            <div class="card__image">
+                <img src="./images/works_img_03.jpg" width="450px" height="450px" alt="新バーガー告知バナー">
             </div>
-            <div class="view-btn">
-              <a class="btn" href="./works.html"> VIEW MORE WORKS </a>
+            <div class="card__contents">
+                <span class="card__body--en">新バーガー告知バナー</span>
+                <span class="card__body--jp">Design</span>
+            </div>
+        </article>
+        <article class="works__card">
+          <div class="card__image">
+              <img src="./images/works_img_04.jpg" width="450px" height="450px" alt="新バーガー告知バナー">
+          </div>
+          <div class="card__contents">
+              <span class="card__body--en">新バーガー告知バナー</span>
+              <span class="card__body--jp">Design</span>
+          </div>
+      </article>
             </div>
           </div>
         </div>
@@ -274,7 +234,7 @@
       <section id="lp-area" class="works-box">
         <div class="works-box__inner">
           <div class="works-box__image">
-            <img src="./images/top_lp.jpg" alt="バナー" />
+
           </div>
           <div class="works-box__text">
             <div>
@@ -282,15 +242,27 @@
                 <span class="heading__h2--en">LP</span>
                 <span class="heading__h2--jp">ラインディングページ</span>
               </h2>
-              <p class="text">
-                ラインディングページはじめWebサイト、<br />
-                グラフィックなど幅広く承ります。<br />
-                丁寧にご希望をヒアリングし、<br />
-                課題を解決できるデザインを制作いたします。
-              </p>
-            </div>
-            <div class="view-btn">
-              <a class="btn" href="./works.html"> VIEW MORE WORKS </a>
+                <!--バナーカードレイアウト-->
+              <article class="works__card">
+                <div class="card__image">
+                    <img src="./images/works_img_05.jpg" width="450px" height="450px" alt="コワーキングスペース「WORKERS」HP">
+                </div>
+                <div class="card__contents">
+                    <span class="card__body--en">コワーキングスペース「WORKERS」HP</span>
+                    <span class="card__body--jp">Design</span>
+                </div>
+            </article>
+            <article class="works__card">
+              <div class="card__image">
+                  <img src="./images/works_img_06.jpg" width="450px" height="450px" alt="美容院「LIFE」LP">
+              </div>
+              <div class="card__contents">
+                  <span class="card__body--en">美容院「LIFE」LP</span>
+                  <span class="card__body--jp">Design</span>
+              </div>
+          </article>
+      </article>
+
             </div>
           </div>
         </div>
