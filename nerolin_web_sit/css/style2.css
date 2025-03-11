@@ -136,7 +136,6 @@ header
 
 .main-content-text {
   font-size: 23px;
-  
 }
 .text-area {
   height: 100%;
@@ -175,7 +174,6 @@ header
   display: block;
   margin-bottom: 24px;
 }
-
 
 /* ==========
 スライドバー
@@ -248,7 +246,7 @@ works
 .works__inner {
   max-width: 860px;
   margin: 0 auto;
-} 
+}
 .works__inner .image {
   display: flex;
   justify-content: space-between;
@@ -271,11 +269,19 @@ works
 }
 
 .works-box__inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
   max-width: 1240px;
   margin: 0 auto;
+}
+.works-box__layout {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+.works__card {
+  width: 45%;
 }
 
 .works-box__image {
@@ -321,10 +327,9 @@ works
 .works__card {
   padding: 10px;
   border-radius: 4px;
-  
 }
 
-.card__image{
+.card__image {
   text-align: center;
 }
 
@@ -334,7 +339,7 @@ works
   vertical-align: bottom;
 }
 
-.card__contents{
+.card__contents {
   margin-top: 15px;
 }
 
@@ -484,4 +489,11 @@ footer
 @font-face {
   font-family: "CHAIBCHAIB";
   src: url("../fonts/CHAIB___.TTF") format("truetype");
+}
+
+/* ==========
+コンタクトページ
+==========*/
+.contact-image {
+  width: 133px;
 }
