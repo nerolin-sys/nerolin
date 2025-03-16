@@ -16,23 +16,26 @@
             <img src="./images/nerolin_rogo.png" alt="ネロリンWebサイト"
           /></a>
         </h1>
+        <div class="hamburger">
+          <span class="hamburger-line"></span>
+        </div>
         <!--ナビ-->
         <nav class="header_nav">
           <ul class="header_nav-list">
             <li class="header_nav-item">
-              <a href="#works">WORKS<span>お仕事</span></a>
+              <a href="./works.html">WORKS<span>お仕事</span></a>
             </li>
             <li class="header_nav-item">
-              <a href="#profile">PROFILE<span>わたしについて</span></a>
+              <a href="./profile.html">PROFILE<span>わたしについて</span></a>
             </li>
             <li class="header_nav-item">
-              <a href="#contact">CONTACT<span>お問合せ</span></a>
+              <a href="./contact.html">CONTACT<span>お問合せ</span></a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-
+    <main>
       <!--スライダー-->
       <section id="slider-section">
         <div class="marquee-text-wrapper text-loop__list">
@@ -172,8 +175,8 @@
             <img src="./images/works_img_a.png" alt="お仕事について01" />
           </div>
           <p class="main-content-text">
-            こちらのページでは、<br>
-            一喜一憂して制作してきたバナーやLPなどの制作物を掲載しています。<br>
+            こちらのページでは、<br />
+            一喜一憂して制作してきたバナーやLPなどの制作物を掲載しています。<br />
             バナー以外にも制作物が増える度に順次アップしていきます。
           </p>
         </div>
@@ -185,111 +188,365 @@
             <span class="heading__h2--en">Banner</span>
             <span class="heading__h2--jp">バナー</span>
           </h2>
-              
-              <!--バナーカードレイアウト-->
-              <div class="works-box__layout">
-                <article class="works__card">
-                  <a href="">
-                    <div class="card__image">
-                      <img
-                        src="./images/works_img_01.jpg"
-                        width="450px"
-                        height="450px"
-                        alt="デザスタmobileバナー"
-                      />
-                    </div>
-                    <div class="card__contents">
-                      <span class="card__body--en">デザスタmobileバナー</span>
-                      <span class="card__body--jp">Design</span>
-                    </div>
-                  </a>
-                </article>
 
-                <article class="works__card">
-                  <a href="">
-                    <div class="card__image">
+          <!--バナーカードレイアウト-->
+          <div class="works-box__layout">
+            <article class="works__card">
+              <!-- モーダルを開くボタン -->
+              <button class="modal-open js-modal-open">
+                <div class="card__image">
+                  <img
+                    src="./images/works_img_01.jpg"
+                    width="450px"
+                    height="450px"
+                    alt="デザスタmobileバナー"
+                  />
+                </div>
+                <div class="card__contents">
+                  <span class="card__body--en">デザスタmobileバナー</span>
+                  <span class="card__body--jp">Design</span>
+                </div>
+              </button>
+              <!-- モーダル本体 -->
+              <div class="modal js-modal">
+                <div class="modal-container">
+                  <!-- モーダルを閉じるボタン -->
+                  <div class="modal-close js-modal-close">×</div>
+                  <!-- モーダル内部のコンテンツ -->
+                  <div class="modal-content">
+                    <div class="modal__title-area">
+                      <h3 class="heading__h3">デザスタmobile バナー</h3>
+                      <div class="label">
+                        <span> 制作範囲 </span>
+                        <span> Design </span>
+                      </div>
+                    </div>
+                    <div class="modal-content__inner">
+                      <div class="modal__info">
+                        <dl class="modal__list">
+                          <dt class="modal__item-name">概要</dt>
+                          <dd class="modal__item-detail">
+                            スマホキャリアの期間限定キャンペーンを周知してもらうための仮想バナー
+                          </dd>
+                          <dt class="modal__item-name">ターゲット</dt>
+                          <dd class="modal__item-detail">学生・その保護者</dd>
+                          <dt class="modal__item-name">コンセプト</dt>
+                          <dd class="modal__item-detail">
+                            春から新生活が始まり、スマホを新しくしたい学生にお得なプランを知ってもらい、契約数を増加させる。「春」を直感的に感じてもらえるようピンクをメインカラーとし、桜のあしらいを使用しました。
+                            メインターゲットである学生に魅力的な「学割」は目を引くスマホ内に配置。全体的に爽やかな配色を心がけました。
+                          </dd>
+                        </dl>
+                        <div class="modal__image">
+                          <p class="modal__image-text">X版（旧ツイッター）</p>
+                          <img src="./images/modal-banner01.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer__inner">
+                    <div class="logo">
                       <img
-                        src="./images/works_img_02.jpg"
-                        width="450px"
-                        height="450px"
-                        alt="トラベルメディア「TRRRRIP」バナー"
+                        src="./images/nerolin_rogo_f.png"
+                        alt="ネロリンWebサイト"
                       />
                     </div>
-                    <div class="card__contents">
-                      <span class="card__body--en"
-                        >トラベルメディア「TRRRRIP」バナー</span
-                      >
-                      <span class="card__body--jp">Design</span>
+                    <p class="copyright">© 2025 Nerolin</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="works__card">
+              <!-- モーダルを開くボタン -->
+              <button class="modal-open js-modal-open">
+                <div class="card__image">
+                  <img
+                    src="./images/works_img_02.jpg"
+                    width="450px"
+                    height="450px"
+                    alt="トラベルメディア「TRRRRIP」バナー"
+                  />
+                </div>
+                <div class="card__contents">
+                  <span class="card__body--en"
+                    >トラベルメディア「TRRRRIP」バナー</span
+                  >
+                  <span class="card__body--jp">Design</span>
+                </div>
+              </button>
+              <!-- モーダル本体 -->
+              <div class="modal js-modal">
+                <div class="modal-container">
+                  <!-- モーダルを閉じるボタン -->
+                  <div class="modal-close js-modal-close">×</div>
+                  <!-- モーダル内部のコンテンツ -->
+                  <div class="modal-content">
+                    <div class="modal__title-area">
+                      <h3 class="heading__h3">
+                        トラベルメディア「TRRRRIP」バナー
+                      </h3>
+                      <div class="label">
+                        <span> 制作範囲 </span>
+                        <span> Design </span>
+                      </div>
                     </div>
-                  </a>
-                </article>
-
-                <article class="works__card">
-                  <a href="">
-                    <div class="card__image">
+                    <div class="modal-content__inner">
+                      <div class="modal__info">
+                        <dl class="modal__list">
+                          <dt class="modal__item-name">概要</dt>
+                          <dd class="modal__item-detail">
+                            トラベルメディアアプリのダウンロード数増加を目的とするSNS用の仮想バナー
+                          </dd>
+                          <dt class="modal__item-name">ターゲット</dt>
+                          <dd class="modal__item-detail">
+                            20代〜30代の男女。アウトドアが好きな人。
+                          </dd>
+                          <dt class="modal__item-name">コンセプト</dt>
+                          <dd class="modal__item-detail">
+                            魅力的な写真で興味を引き、アプリをダウンロードしてもらう。旅の中で見れる広大な自然の写真をiPadのモックアップと使うことで、直感的に旅行関連のアプリだと認識できるようにしました。「旅行に行きたいな」と思ってもらえるよう、情緒的に訴求できる「ワクワク」をコピーに使用しています。
+                          </dd>
+                        </dl>
+                        <div class="modal__image">
+                          <p class="modal__image-text">インスタグラム版</p>
+                          <img src="./images/modal-banner02.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer__inner">
+                    <div class="logo">
                       <img
-                        src="./images/works_img_03.jpg"
-                        width="450px"
-                        height="450px"
-                        alt="新バーガー告知バナー"
+                        src="./images/nerolin_rogo_f.png"
+                        alt="ネロリンWebサイト"
                       />
                     </div>
-                    <div class="card__contents">
-                      <span class="card__body--en">新バーガー告知バナー</span>
-                      <span class="card__body--jp">Design</span>
+                    <p class="copyright">© 2025 Nerolin</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="works__card">
+              <!-- モーダルを開くボタン -->
+                <button class="modal-open js-modal-open">
+                <div class="card__image">
+                  <img
+                    src="./images/works_img_03.jpg"
+                    width="450px"
+                    height="450px"
+                    alt="新バーガー告知バナー"
+                  />
+                </div>
+                <div class="card__contents">
+                  <span class="card__body--en">新バーガー告知バナー</span>
+                  <span class="card__body--jp">Design</span>
+                </div>
+              </button>
+              <!-- モーダル本体 -->
+              <div class="modal js-modal">
+                <div class="modal-container">
+                  <!-- モーダルを閉じるボタン -->
+                  <div class="modal-close js-modal-close">×</div>
+                  <!-- モーダル内部のコンテンツ -->
+                  <div class="modal-content">
+                    <div class="modal__title-area">
+                      <h3 class="heading__h3">新バーガー告知バナー高級感編</h3>
+                      <div class="label">
+                        <span> 制作範囲 </span>
+                        <span> Design </span>
+                      </div>
                     </div>
-                  </a>
-                </article>
-            
-                <article class="works__card">
-                  <a href="">
-                    <div class="card__image">
+                    <div class="modal-content__inner">
+                      <div class="modal__info">
+                        <dl class="modal__list">
+                          <dt class="modal__item-name">概要</dt>
+                          <dd class="modal__item-detail">
+                            新ハンバーガーの購買促進を目的に作成したSNS用の仮想バナー
+                          </dd>
+                          <dt class="modal__item-name">ターゲット</dt>
+                          <dd class="modal__item-detail">
+                            幅広い年代の男女。特に20代後半から30代。食べ物に対するこだわりがある人。
+                          </dd>
+                          <dt class="modal__item-name">コンセプト</dt>
+                          <dd class="modal__item-detail">
+                            高級感を与え、素材にこだわった本格派バーガーだということを感じてもらう。直感的に「美味しそう」と感じてもらう。高級感を出すため背景は落ち着いたトーンに抑え、余白を広めに取ることを意識しました。
+                            背景に素材を配置し、遠近感のある写真を使用することで素材へのこだわりを表現しました。
+                          </dd>
+                        </dl>
+                        <div class="modal__image">
+                          <p class="modal__image-text">インスタグラム版</p>
+                          <img src="./images/modal-banner04.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer__inner">
+                    <div class="logo">
                       <img
-                        src="./images/works_img_04.jpg"
-                        width="450px"
-                        height="450px"
-                        alt="新バーガー告知バナー"
+                        src="./images/nerolin_rogo_f.png"
+                        alt="ネロリンWebサイト"
                       />
                     </div>
-                    <div class="card__contents">
-                      <span class="card__body--en">新バーガー告知バナー</span>
-                      <span class="card__body--jp">Design</span>
+                    <p class="copyright">© 2025 Nerolin</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="works__card">
+              <!-- モーダルを開くボタン -->
+              <button class="modal-open js-modal-open">
+                <div class="card__image">
+                  <img
+                    src="./images/works_img_04.jpg"
+                    width="450px"
+                    height="450px"
+                    alt="新バーガー告知バナー"
+                  />
+                </div>
+                <div class="card__contents">
+                  <span class="card__body--en">新バーガー告知バナー</span>
+                  <span class="card__body--jp">Design</span>
+                </div>
+              </button>
+              <!-- モーダル本体 -->
+              <div class="modal js-modal">
+                <div class="modal-container">
+                  <!-- モーダルを閉じるボタン -->
+                  <div class="modal-close js-modal-close">×</div>
+                  <!-- モーダル内部のコンテンツ -->
+                  <div class="modal-content">
+                    <div class="modal__title-area">
+                      <h3 class="heading__h3">新バーガー告知バナーPOP編</h3>
+                      <div class="label">
+                        <span> 制作範囲 </span>
+                        <span> Design </span>
+                      </div>
                     </div>
-                  </a>
-                </article>
+                    <div class="modal-content__inner">
+                      <div class="modal__info">
+                        <dl class="modal__list">
+                          <dt class="modal__item-name">概要</dt>
+                          <dd class="modal__item-detail">
+                            新ハンバーガーの購買促進を目的に作成したSNS用の仮想バナー
+                          </dd>
+                          <dt class="modal__item-name">ターゲット</dt>
+                          <dd class="modal__item-detail">
+                            20代～40代前半の男性。ボリューミーでジャンキーな食べ物を好む人。
+                          </dd>
+                          <dt class="modal__item-name">コンセプト</dt>
+                          <dd class="modal__item-detail">
+                            直感的に「美味しそう」と思ってもらえるよう、具材が見えやすい形でハンバーガーを大きくトリミングしました。ジャンクでボリューム感と食べ応え、満足感が伝わる様にインパクトと元気があるデザインにしました。
+                          </dd>
+                        </dl>
+                        <div class="modal__image">
+                          <p class="modal__image-text">X版（旧ツイッター）</p>
+                          <img src="./images/modal-banner03.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer__inner">
+                    <div class="logo">
+                      <img
+                        src="./images/nerolin_rogo_f.png"
+                        alt="ネロリンWebサイト"
+                      />
+                    </div>
+                    <p class="copyright"> © 2025 Nerolin</p>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
-    
+
       <section id="lp-area" class="works-box">
         <div class="works-box__inner">
           <h2 class="heading__h2 heading__h2--left">
             <span class="heading__h2--en">LP</span>
             <span class="heading__h2--jp">ラインディングページ</span>
           </h2>
-                <!--バナーカードレイアウト-->
-                <div class="works-box__layout">
-                  <article class="works__card">
-                    <a href="">
-                      <div class="card__image">
-                        <img
-                          src="./images/works_img_05.jpg"
-                          width="450px"
-                          height="450px"
-                          alt="コワーキングスペース「WORKERS」HP"
-                        />
+          <!--バナーカードレイアウト-->
+          <div class="works-box__layout">
+            <article class="works__card">
+              <!-- モーダルを開くボタン -->
+              <button class="modal-open js-modal-open">
+                <div class="card__image">
+                  <img
+                    src="./images/works_img_05.jpg"
+                    width="450px"
+                    height="450px"
+                    alt="コワーキングスペース「WORKERS」HP"
+                  />
+                </div>
+                <div class="card__contents">
+                  <span class="card__body--en"
+                    >コワーキングスペース「WORKERS」HP</span
+                  >
+                  <span class="card__body--jp">Design</span>
+                </div>
+              </button>
+              <!-- モーダル本体 -->
+              <div class="modal js-modal">
+                <div class="modal-container">
+                  <!-- モーダルを閉じるボタン -->
+                  <div class="modal-close js-modal-close">×</div>
+                  <!-- モーダル内部のコンテンツ -->
+                  <div class="modal-content">
+                    <div class="modal__title-area">
+                      <h3 class="heading__h3">
+                        コワーキングスペース「WORKERS」HP
+                      </h3>
+                      <div class="label">
+                        <span> 制作範囲 </span>
+                        <span> Design </span>
                       </div>
-                      <div class="card__contents">
-                        <span class="card__body--en"
-                          >コワーキングスペース「WORKERS」HP</span
-                        >
-                        <span class="card__body--jp">Design</span>
+                    </div>
+                    <div class="modal-content__inner">
+                      <div class="modal__info">
+                        <dl class="modal__list">
+                          <dt class="modal__item-name">概要</dt>
+                          <dd class="modal__item-detail">
+                            デザイン学習のために作成した架空コワーキングスペースのHP
+                          </dd>
+                          <dt class="modal__item-name">ターゲット</dt>
+                          <dd class="modal__item-detail">
+                            20~40代の男女。テレワークなどで自宅以外の仕事場所を求めている方。
+                          </dd>
+                          <dt class="modal__item-name">コンセプト</dt>
+                          <dd class="modal__item-detail">
+                            利便性が高く、明るい雰囲気のコワーキングスペースの魅力を伝え、重要な情報をわかりやすく整理し、見ている人にとって特に重要な価格や設備などについての情報を、過不足なく伝えられるよう意識しました。
+                            利便性の高さや安全性を強調するため黄色をメインカラーにし、親しみやすさを持ってもらうためコンテンツ内にはイラストを多く使用しました。
+                          </dd>
+                        </dl>
+                        <div class="modal__image modal__image--column">
+                          <div class="modal__image-item">
+                            <p class="modal__image-text">パソコン版</p>
+                            <img src="./images/modal-lp01.jpg" alt="" />
+                          </div>
+                          <div class="modal__image-item">
+                            <p class="modal__image-text">スマホ版</p>
+                            <img src="./images/modal-lp01-sp.jpg" alt="" />
+                          </div>
+                        </div>
                       </div>
-                    </a>
-                  </article>
+                    </div>
+                  </div>
+                  <div class="footer__inner">
+                    <div class="logo">
+                      <img
+                        src="./images/nerolin_rogo_f.png"
+                        alt="ネロリンWebサイト"
+                      />
+                    </div>
+                    <p class="copyright"> © 2025 Nerolin</p>
+                  </div>
+                </div>
+              </div>
+            </article>
 
-           <article class="works__card">
-              <a href="">
+            <article class="works__card">
+              <!-- モーダルを開くボタン -->
+              <button class="modal-open js-modal-open">
                 <div class="card__image">
                   <img
                     src="./images/works_img_06.jpg"
@@ -302,11 +559,61 @@
                   <span class="card__body--en">美容院「LIFE」LP</span>
                   <span class="card__body--jp">Design</span>
                 </div>
-              </a>
-            </article>
-                </div>
+              </button>
+              <!-- モーダル本体 -->
+              <div class="modal js-modal">
+                <div class="modal-container">
+                  <!-- モーダルを閉じるボタン -->
+                  <div class="modal-close js-modal-close">×</div>
+                  <!-- モーダル内部のコンテンツ -->
+                  <div class="modal-content">
+                    <div class="modal__title-area">
+                      <h3 class="heading__h3">
+                        コワーキングスペース「WORKERS」HP
+                      </h3>
+                      <div class="label">
+                        <span> 制作範囲 </span>
+                        <span> Design </span>
+                      </div>
+                    </div>
+                    <div class="modal-content__inner">
+                      <div class="modal__info">
+                        <dl class="modal__list">
+                          <dt class="modal__item-name">概要</dt>
+                          <dd class="modal__item-detail">
+                            デザイン学習のために作成した架空コワーキングスペースのHP
+                          </dd>
+                          <dt class="modal__item-name">ターゲット</dt>
+                          <dd class="modal__item-detail">
+                            20~40代の男女。テレワークなどで自宅以外の仕事場所を求めている方。
+                          </dd>
+                          <dt class="modal__item-name">コンセプト</dt>
+                          <dd class="modal__item-detail">
+                            利便性が高く、明るい雰囲気のコワーキングスペースの魅力を伝え、重要な情報をわかりやすく整理し、見ている人にとって特に重要な価格や設備などについての情報を、過不足なく伝えられるよう意識しました。
+                            利便性の高さや安全性を強調するため黄色をメインカラーにし、親しみやすさを持ってもらうためコンテンツ内にはイラストを多く使用しました。
+                          </dd>
+                        </dl>
+                        <div class="modal__image">
+                          <p class="modal__image-text">パソコン版</p>
+                          <img src="./images/modal-lp02.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer__inner">
+                    <div class="logo">
+                      <img
+                        src="./images/nerolin_rogo_f.png"
+                        alt="ネロリンWebサイト"
+                      />
+                    </div>
+                    <p class="copyright"> © 2025 Nerolin</p>
+                  </div>
               </div>
-            </section>
+            </article>
+          </div>
+        </div>
+      </section>
 
       <section id="profile">
         <div class="about__inner">
@@ -335,10 +642,10 @@
               <div class="abot__link-area">
                 <div class="sns-icon">
                   <a
-                    href="https://www.instagram.com/nerolin5963/"
+                    href="https://www.instagram.com/nerolin4183/"
                     target="_blank"
                   >
-                    <img src="./images/Instagram_big.png" alt="ネロリン5963" />
+                    <img src="./images/Instagram_big.png" alt="ネロリン4183" />
                   </a>
                 </div>
                 <div class="view-btn">
@@ -355,17 +662,17 @@
       <nav class="footer_nav">
         <ul class="footer_nav-list">
           <li class="footer_nav-item">
-            <a href="#works">WORKS<span>お仕事</span></a>
+            <a href="./works.html">WORKS<span>お仕事</span></a>
           </li>
           <li class="footer_nav-item">
-            <a href="#profile">PROFILE<span>わたしについて</span></a>
+            <a href="./profile.html">PROFILE<span>わたしについて</span></a>
           </li>
           <li class="footer_nav-item">
-            <a href="#contact">CONTACT<span>お問合せ</span></a>
+            <a href="./contact.html">CONTACT<span>お問合せ</span></a>
           </li>
           <li class="footer_nav-item">
-            <a href="https://www.instagram.com/nerolin5963/" target="_blank">
-              <img src="./images/Instagram_s.png" alt="ネロリン5963"
+            <a href="https://www.instagram.com/nerolin4183/" target="_blank">
+              <img src="./images/Instagram_s.png" alt="ネロリン4183"
             /></a>
           </li>
         </ul>
@@ -374,7 +681,7 @@
         <div class="logo">
           <img src="./images/nerolin_rogo_f.png" alt="ネロリンWebサイト" />
         </div>
-        <p class="copyright">&copy; © 2025 Nerolin</p>
+        <p class="copyright">&copy; 2025 Nerolin</p>
       </div>
     </footer>
   </body>
